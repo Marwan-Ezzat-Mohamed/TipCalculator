@@ -6,14 +6,14 @@ const tipFormValidationSchema = Yup.object({
     .positive("Can't be negative")
     .typeError("Must be a number")
     .max(10000000, "Number is large")
-    .moreThan(0, "Must be greater than 0"),
+    .moreThan(0, "Can't be Zero"),
 
   people: Yup.number()
     .required("Required")
     .positive("Can't be negative")
     .typeError("Must be a number")
     .max(10000000, "Number is large")
-    .min(1, "Must be at least 1")
+    .moreThan(0, "Can't be Zero")
     .integer("Must be an integer"),
 
   tip: Yup.number().typeError("Must be a number"),
