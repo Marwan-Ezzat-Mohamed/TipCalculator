@@ -41,6 +41,7 @@ function TipInput(props: Props) {
           inputProps={{
             type: "number",
             placeholder: "Custom",
+            step: "any",
             classNames: "placeholder:text-center placeholder:text-neutral-900",
             ...getFieldProps("tip"),
             ...getFieldMeta("tip"),
@@ -50,7 +51,7 @@ function TipInput(props: Props) {
 
       <CustomInput
         type="number"
-        step="1"
+        step="any"
         label="Number of People"
         iconUrl={PersonIcon}
         placeholder="0"

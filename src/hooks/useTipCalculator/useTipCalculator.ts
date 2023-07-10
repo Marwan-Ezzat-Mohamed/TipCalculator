@@ -22,6 +22,7 @@ const useTipCalculator = () => {
     },
     validationSchema: tipFormValidationSchema,
     validateOnMount: true,
+    validateOnChange: true,
     onSubmit: (values) => {},
   });
 
