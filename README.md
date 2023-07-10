@@ -24,15 +24,15 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/ss1.jpg)
-![](./screenshots/ss2.jpg)
-![](./screenshots/ss3.jpg)
-![](./screenshots/ss4.jpg)
+![](./screenshots/ss1.png)
+![](./screenshots/ss2.png)
+![](./screenshots/ss3.png)
+![](./screenshots/ss4.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Marwan-Ezzat-Mohamed/tip-calculator)
-- Live Site URL: [Vercel](https://tip-calculator-flax-chi.vercel.app/)
+- Solution URL: [GitHub](https://github.com/Marwan-Ezzat-Mohamed/TipCalculator)
+- Live Site URL: [Vercel](https://tip-calculator-alpha-ochre.vercel.app/)
 
 ## My process
 
