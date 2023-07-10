@@ -8,8 +8,7 @@ interface Props {
 }
 
 function TipValue({ tipAmountPerPerson, totalPerPerson, resetAll }: Props) {
-  const isDisabled =
-    tipAmountPerPerson === undefined && totalPerPerson === undefined;
+  const isDisabled = tipAmountPerPerson === 0 && totalPerPerson === 0;
 
   return (
     <div className="flex h-full w-full flex-grow flex-col justify-between rounded-2xl bg-neutral-900 p-10">
