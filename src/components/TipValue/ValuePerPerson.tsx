@@ -6,8 +6,8 @@ interface Props {
 
 function ValuePerPerson({ label, amount, testId }: Props) {
   return (
-    <div className="flex items-center justify-between">
-      <div>
+    <div className="flex flex-col items-center justify-between 2xs:flex-row">
+      <div className="min-w-[100px]">
         <h1 className="font-bold text-white">{label}</h1>
         <h2 className="font-bold text-neutral-600">/ person</h2>
       </div>
