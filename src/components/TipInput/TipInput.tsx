@@ -24,7 +24,7 @@ function TipInput(props: Props) {
         step="any"
         label="Bill"
         iconUrl={DollarIcon}
-        placeholder="0.00"
+        placeholder="0"
         {...getFieldProps("bill")}
         {...getFieldMeta("bill")}
       />
