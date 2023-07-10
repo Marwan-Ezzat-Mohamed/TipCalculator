@@ -12,7 +12,7 @@ const Home = () => {
       <header className="flex h-36 w-full items-start justify-center ">
         <img src={Logo} alt="logo" draggable={false} />
       </header>
-      <section className="grid h-[480px] min-h-desktop !w-full max-w-desktop grid-cols-1 gap-x-14 gap-y-4 rounded-t-3xl bg-white px-8 py-9 desktop:min-h-0  desktop:grid-cols-2  desktop:rounded-3xl desktop:p-8">
+      <section className="grid h-full min-h-desktop w-full max-w-desktop grid-cols-1 gap-x-14 gap-y-4 rounded-t-3xl bg-white px-8 py-9 desktop:h-[480px] desktop:min-h-0  desktop:grid-cols-2  desktop:rounded-3xl desktop:p-8">
         <div>
           <TipInput {...formik} />
         </div>
