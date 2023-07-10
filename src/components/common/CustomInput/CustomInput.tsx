@@ -17,7 +17,7 @@ const CustomInput = (props: CustomInputProps) => {
   return (
     <div className="flex w-full flex-col p-1">
       <div className="flex justify-between">
-        <label className="mb-1 text-sm text-gray-500">{props.label}</label>
+        <label className="mb-1 text-sm text-neutral-600">{props.label}</label>
 
         {!!hasError && (
           <span className="text-sm text-red-400">{props.error}</span>
