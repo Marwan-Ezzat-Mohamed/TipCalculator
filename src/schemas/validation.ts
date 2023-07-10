@@ -16,10 +16,7 @@ const tipFormValidationSchema = Yup.object({
     .min(1, "Must be at least 1")
     .integer("Must be an integer"),
 
-  tip: Yup.number()
-    .positive("Can't be negative")
-    .typeError("Must be a number")
-    .max(100, "Can't be more than 100"),
+  tip: Yup.number().typeError("Must be a number"),
 });
 
 export { tipFormValidationSchema };
