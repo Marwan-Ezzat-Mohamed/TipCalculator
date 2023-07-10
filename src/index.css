@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box !important;
+  height: -webkit-fill-available;
+}
+
+body {
+  height: 100vh;
+  height: -webkit-fill-available;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  height: -webkit-fill-available;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
