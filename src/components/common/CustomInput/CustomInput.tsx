@@ -28,7 +28,7 @@ const CustomInput = (props: CustomInputProps) => {
           <img src={props.iconUrl} alt="icon" />
         </div>
         <input
-          className={`w-full rounded-md bg-neutral-100 !p-2 text-end text-neutral-900 outline-none ring-primary placeholder:text-neutral-600 invalid:ring-2 invalid:ring-red-400 hover:ring-2 focus:ring-2 ${className} ${props.classNames}`}
+          className={`w-full rounded-md bg-neutral-100 !p-2 text-end text-neutral-900 outline-none ring-primary placeholder:text-neutral-400 invalid:ring-2 invalid:ring-red-400 hover:ring-2 focus:ring-2 ${className} ${props.classNames}`}
           {...props}
           value={props.value ?? ""}
         />
