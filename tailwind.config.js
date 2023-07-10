@@ -1,7 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./*.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      mobile: "375px",
+      desktop: "1440px",
+
+      xs: "320px",
+      "2xs": "375px",
+      sm: "576px",
+      md: "768px",
+    },
     extend: {
       colors: {
         primary: "hsl(172, 67%, 45%)",
@@ -12,28 +21,21 @@ export default {
         "neutral-100": "hsl(189, 41%, 97%)",
         white: "hsl(0, 0%, 100%)",
       },
+      minHeight: {
+        desktop: "calc(100vh - 9rem)",
+      },
+      maxWidth: {
+        desktop: "57.5rem",
+      },
+
       fontFamily: {
         mono: ["Space Mono"],
       },
       fontSize: {
         input: "24px",
       },
-      screens: {
-        mobile: "375px",
-        desktop: "1440px",
-      },
+      ringWidth: ["hover", "active"],
     },
   },
   plugins: [],
-  safelist: [
-    {
-      pattern: /^bg-/,
-    },
-    {
-      pattern: /^text-/,
-    },
-    {
-      pattern: /^border-/,
-    },
-  ],
 };
