@@ -1,5 +1,12 @@
+import { MainContainer } from "./components/MainContainer";
+import { Home } from "./pages/Home";
+
 function App() {
-  return <main className="h-full w-full bg-neutral-200"></main>;
+  return (
+    <MainContainer>
+      <Home />
+    </MainContainer>
+  );
 }
 
 export default App;
